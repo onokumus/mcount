@@ -1,0 +1,13 @@
+.wrap {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+[data-countdown] {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  font-size: 50px;
+  font-weight: 100;
+  display: inline-block;
+}
