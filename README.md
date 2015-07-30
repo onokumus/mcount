@@ -1,4 +1,5 @@
 # mcount
+[![NPM version](https://badge.fury.io/js/mcount.svg)](http://badge.fury.io/js/mcount) [![Bower version](https://badge.fury.io/bo/mcount.svg)](http://badge.fury.io/bo/mcount)
 
 > Simple, easy, lightweight countdown plugin with moment.js
 
