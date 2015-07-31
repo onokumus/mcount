@@ -22,6 +22,12 @@
 <span data-countdown="seconds"></span>
 ```
 
+#### load moment.js
+
+```html
+<script src="moment.js"></script>
+```
+
 #### create config file
 
 ```javascript
