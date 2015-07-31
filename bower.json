@@ -18,7 +18,7 @@
     "node_modules",
     "bower_components",
     "test.css",
-    "test.html"
+    "index.html"
   ],
   "dependencies": {
     "moment": "~2.10.6"

@@ -11,15 +11,15 @@
 
 ## Setup
 
-#### add data-countdown attribute html file
+#### add data-mcount attribute html file
 
 ```html
-<span data-countdown="years"></span>
-<span data-countdown="months"></span>
-<span data-countdown="days"></span>
-<span data-countdown="hours"></span>
-<span data-countdown="minutes"></span>
-<span data-countdown="seconds"></span>
+<span data-mcount="years"></span>
+<span data-mcount="months"></span>
+<span data-mcount="days"></span>
+<span data-mcount="hours"></span>
+<span data-mcount="minutes"></span>
+<span data-mcount="seconds"></span>
 ```
 
 #### load moment.js
@@ -31,7 +31,7 @@
 #### create config file
 
 ```javascript
-var countdownConfig = {
+var mcountConfig = {
   end: moment('2019-03-20'),
   start: moment('2015-08-01')
 };

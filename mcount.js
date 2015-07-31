@@ -3,8 +3,8 @@
 
   var querySelector = document.querySelector.bind(document);
 
-  var end = countdownConfig.end;
-  var start = countdownConfig.start;
+  var end = mcountConfig.end;
+  var start = mcountConfig.start;
 
   var eventTime = end.unix();
   var currentTime = start.unix();
@@ -15,11 +15,11 @@
   setInterval(function() {
     duration = moment.duration(duration - interval);
 
-    querySelector('[data-countdown="years"]').innerHTML = duration.years();
-    querySelector('[data-countdown="months"]').innerHTML = duration.months();
-    querySelector('[data-countdown="days"]').innerHTML = duration.days();
-    querySelector('[data-countdown="hours"]').innerHTML = duration.hours();
-    querySelector('[data-countdown="minutes"]').innerHTML = duration.minutes();
-    querySelector('[data-countdown="seconds"]').innerHTML = duration.seconds();
+    querySelector('[data-mcount="years"]').innerHTML = duration.years();
+    querySelector('[data-mcount="months"]').innerHTML = duration.months();
+    querySelector('[data-mcount="days"]').innerHTML = duration.days();
+    querySelector('[data-mcount="hours"]').innerHTML = duration.hours();
+    querySelector('[data-mcount="minutes"]').innerHTML = duration.minutes();
+    querySelector('[data-mcount="seconds"]').innerHTML = duration.seconds();
   }, interval);
 })();
